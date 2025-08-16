@@ -1,0 +1,11 @@
+# Pratica01 - Integração com Google GenAI
+
+Este projeto demonstra o uso da biblioteca [`@google/genai`](https://www.npmjs.com/package/@google/genai) para consumir recursos de inteligência artificial do Google, como geração de texto, imagens e outros recursos de IA generativa.
+
+##  Tecnologias utilizadas
+- **Node.js** (JavaScript)
+- **@google/genai** (API de IA generativa)
+- **dotenv** (para gerenciar variáveis de ambiente)
+
+
+

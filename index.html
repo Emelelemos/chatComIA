@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcur icon" href="ia-global.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container"> 
+        <h1>Chat com IA</h1>
+
+        <div class="input">
+            <label for="apiKey">Chave de API: </label><br>
+            <input type="password" id="apiKey" placeholder="Digite sua chave de API">
+        </div>
+
+        <div class="input">
+            <label for="modelo-selecionado"></label>
+            <select id="modelo-selecionado">
+                <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
+                <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+            </select>
+        </div>
+
+        <div class="input">
+            <label for="perguntaIa">Sua pergunta: </label>
+            <textarea id="perguntaIa" rows="5" placeholder="Digite aqui sua pergunta."></textarea>
+        </div>
+
+        <button id="botao">Perguntar</button>
+
+        <div id="statusMessage" class="mensagem">
+            <img src="icons8-círculo-de-carga.gif" id="loadingGif" alt="carregando">
+            <span id="statusText"></span>
+        </div>
+
+        <div class="response-section">
+            <h2>Resposta da IA</h2>
+            <div id="responseArea" class="RespostaIa"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

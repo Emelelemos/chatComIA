@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 212, 192);
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(252, 239, 217);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    color: rgb(155, 105, 105);
+}
+
+.input label {
+    font-weight: 600;
+    color: rgb(250, 75, 21);
+    display: block;
+}
+
+.input input,
+.input textarea,
+.input select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: brown;
+}
+
+button {
+    background-color: rgb(155, 105, 105);
+    color: aliceblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#loadingGif {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.response-section {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.response-section h2 {
+    color: rgb(155, 105, 105);
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(253, 212, 192);
+    padding-bottom: 5px;
+}
+
+.RespostaIa {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    white-space: pre-wrap; 
+}
